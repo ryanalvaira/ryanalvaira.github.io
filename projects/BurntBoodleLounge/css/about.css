@@ -1,0 +1,283 @@
+/* About Us */
+.about{
+    height: auto;
+    margin-bottom: 100px;
+}
+.about h1{
+    font-family: 'Tangerine', cursive;
+    font-size:50px;
+    letter-spacing: 3px;
+}
+.about h3{
+    position: relative;
+    top: -20px;
+    font-family: 'Noto Serif', serif;
+}
+button {
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 1.3px;
+}
+.about h5{
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    top: -25px;
+}
+.about h5:before,
+.about h5:after{
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 9%;
+}
+.about h5:before{
+    right: 0.5em;
+    margin-left: -50%;
+}
+.about h5:after{
+    left: 0.5em;
+    margin-right: -50%;
+}
+#burnt{
+    width: 30px;
+    height: 34px;
+}
+.about h4{
+    font-family: 'Noto Serif', serif;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height:1.7;
+    width: 80%;
+    font-style: italic;
+}
+#banner{
+    height: 400px;
+}
+#banner2{
+    height: 500px;
+    width: 550px;
+}
+.about p{
+    margin-top: 25px;
+}
+#readmore{
+    background-color: #222222;
+    color:white;
+    padding: 5px 55px;
+    margin-top: 20px;
+    border:1px solid black;
+    margin-right: 10px;
+}
+#visitusnow{
+    background-color: transparent;
+    color:black;
+    padding: 5px 40px;
+    margin-top: 20px;
+    border:1px solid black;
+}
+#readmore:hover{
+    text-decoration: underline;
+}
+#visitusnow:hover{
+    text-decoration: underline;
+}
+/* End of About Us */
+
+
+/* Contact */
+.contact{
+    height: auto;
+    background-color: #222222;
+    color: white;
+    padding-bottom: 50px;
+}
+#logo2{
+    width: 150px;
+    height: 50px;
+}
+.contact .col-md-3{
+    margin-top: 50px;
+}
+.contact .first-col p{
+    line-height: 1.8;
+    margin-top: 15px;
+    color: gray;
+}
+.list-inline li a i{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-right: 20px;
+}
+.contact h5{
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 2px;
+}
+.contact .second-col p{
+    font-family: 'Noto Serif', serif;
+}
+.contact .second-col h6{
+    color: gray;
+}
+.contact .third-col h5{
+    margin-bottom: 35px;
+}
+.contact .third-col img{
+    width: 80px;
+    height: 75px;
+    padding: 3px;
+}
+.contact .fourth-col h5{
+    margin-bottom: 30px;
+}
+.contact .fourth-col p{
+    font-size: 15px;
+    color: gray;
+    line-height: 1.7;
+}
+/* End of Contact */
+
+/* Footer */
+.footer{
+    height: auto;
+    background-color:   rgb(18, 18, 18);
+    color: gray;
+}
+.footer .row{
+    margin-top: 15px;
+    padding: 5px;
+}
+.footer a{
+    color: white;
+}
+.footer .list-inline{
+
+}
+/* End of Footer */
+
+
+
+
+
+
+
+
+/* Media Queries */
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+/* Ipad Pro */ 
+    @media only screen and (max-width : 1024px) and (min-width: 993px) {
+        #banner{
+            height:343px; 
+            width:400px;
+        }
+        #banner2{
+            height: 400px;
+            width: 450px;
+            margin-top: 50px;
+        }
+        .contact .third-col img{
+            width: 65px;
+            height: 65px;
+            padding: 3px;
+        }
+    }
+
+/* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+/* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        .about h5{
+            margin-bottom: 50px;
+        }
+        .about h5:before,
+        .about h5:after{
+            width: 15%;
+        }
+        #banner{
+            margin-bottom: 20px;
+            margin-left: 30px; 
+            height:343px; 
+            width:400px;
+        }
+        #banner2{
+            height: 400px;
+            width: 450px;
+            margin:auto;
+            display: block;
+        }
+    }
+
+/* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+        .about h5:before,
+        .about h5:after{
+            width: 27%;
+        }
+        #banner{
+            height: 300px;
+            width: 300px;
+            margin-left: 20px;
+        }
+        #banner2{
+            height: 350px;
+            width: 370px;
+        }
+    }
+
+/* Iphone 6 plus */
+    @media only screen and (max-width : 414px) {
+        #banner{
+            margin-left: 37px;
+        }
+
+    }
+
+/* Nexus 5 and other phone */
+    @media only screen and (max-width : 412px) {
+        #banner{
+            margin-left: 36px;
+        }
+    }
+
+/* Iphone 6 */
+    @media only screen and (max-width : 375px) {
+        #banner{
+            margin-left: 25px;
+        }
+        #banner2{
+            height: 350px;
+            width: 350px;
+        }
+    }
+
+/* Galaxy 5 */
+    @media only screen and (max-width : 360px) {
+        #banner{
+            margin-left: 15px;
+        }
+        #banner2{
+            height: 330px;
+            width: 330px;
+        }
+    }
+
+/* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        #banner{
+            margin-left: 0;
+        }
+        #banner2{
+            height: 280px;
+            width: 290px;
+        }
+    }

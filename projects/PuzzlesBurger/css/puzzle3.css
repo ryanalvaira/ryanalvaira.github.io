@@ -1,0 +1,146 @@
+/* Difficulty */
+    body{
+        font-family: 'Montserrat', sans-serif;
+        background-image: url("../images/menubackground.JPG");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container1{
+        position:absolute;
+        top:0px;
+        left:570px;
+    }
+    .wrapper {
+        position: relative;
+        width: 220px;
+        height: 425px;
+        margin:5px;
+    }
+    .line {
+        position: absolute;
+        left: 49%;
+        top: 0;
+        bottom: 0;
+        width: 3px;
+        background: white;
+        z-index: 1;
+    }
+    .wordwrapper {
+        text-align: center;
+        height: 12px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 15%;
+        margin-top: -12px;
+        z-index: 2; 
+    }
+    .word {
+        color:white;
+        background:#428bca;
+        letter-spacing: 1px;
+        padding-top: 20px;
+        border-radius:50px;
+        margin:auto;
+        width:70px;
+        height:70px;
+        border:3px solid white;
+        margin-top: 15%;
+    }  
+    .word1 {
+        color:black;
+        background-color:white;
+        letter-spacing: 1px;
+        padding-top: 22px;
+        border-radius:50px;
+        margin:auto;
+        width:70px;
+        height:70px;
+        border:1px solid #428bca;
+        margin-top: 15%;
+    }
+    .word2 {
+        color:black;
+        background-color:white;
+        letter-spacing: 1px;
+        padding-top: 22px;
+        border-radius:50px;
+        margin:auto;
+        width:70px;
+        height:70px;
+        border:1px solid #428bca;
+    }
+    .word1:hover{
+        color:white;
+        background:#428bca;
+        border:3px solid white;
+        transition:0.3s;
+    }
+    .word2:hover{
+        color:white;
+        background:#428bca;
+        border:3px solid white;
+        transition:0.3s;
+    }
+    .wordwrapper a:hover{
+        text-decoration:none;
+    }
+/* End of Difficulty */
+
+/* Content */
+    .container2{
+        position: absolute;
+        right:0;
+        top: 0;
+        width: 520px;
+    }
+    #puzzleimage{
+        width: 270px;
+        height: 220px;
+        border:5px solid black;
+        margin-left: 60px;
+        margin-top: 30px;      
+    }
+    h1{
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 70px;
+        color: white;
+    }
+/* End of Content */
+
+/* Footer */
+    .backtohome{
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    .backtohome a{
+        color: white;
+        text-decoration: none;
+    }
+    .backtohome a:hover{
+        color: #428bca;
+    }
+    .backtohome i{
+        font-size: 50px;
+        position: relative;
+        top: 10px;
+    }
+    .footer{
+        background-color: black;
+        height: 70px;
+        margin-top: 55px;
+    }
+    #logo{
+        width: 160px;
+        height: 63px;
+        position: relative;
+        left: 50px;
+        top: 5px;
+    }
+    .btn-footer{
+        float: right;
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+/* End of Footer */

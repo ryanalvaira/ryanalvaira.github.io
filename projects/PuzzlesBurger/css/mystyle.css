@@ -1,0 +1,432 @@
+/* Variable */
+/* End of Variables */
+.btn {
+  font-family: "Montserrat", sans-serif; }
+
+.custom-btn {
+  width: 150px;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid #428bca;
+  color: #428bca;
+  font-weight: bold;
+  font-size: 16px; }
+  .custom-btn:hover, .custom-btn:focus {
+    background-color: #428bca;
+    color: white;
+    transition: 1s; }
+
+.icons {
+  font-size: 10px;
+  letter-spacing: 3px;
+  margin-top: 30px; }
+
+#chefhat {
+  width: 110px;
+  height: 115px; }
+
+/* Home */
+.home {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  padding-bottom: 155px; }
+  .home .navbar-custom {
+    background-color: transparent;
+    color: white;
+    padding: 40px 0px;
+    font-family: "Aclonica", sans-serif;
+    font-size: 18px; }
+    @media (max-width: 768px) {
+      .home .navbar-custom {
+        font-size: 14px; } }
+    .home .navbar-custom #logo {
+      width: 230px;
+      height: 93px;
+      position: relative;
+      top: -25px; }
+      @media (max-width: 768px) {
+        .home .navbar-custom #logo {
+          width: 160px;
+          height: 63px; } }
+    .home .navbar-custom .navbar-toggle {
+      background-color: #428bca; }
+    .home .navbar-custom .icon-bar {
+      background-color: white; }
+    .home .navbar-custom .navbar-nav li a {
+      color: white; }
+    .home .navbar-custom .navbar-nav .active a {
+      color: white;
+      background-color: transparent; }
+    .home .navbar-custom .navbar-nav li a:hover,
+    .home .navbar-custom .navbar-nav li a:focus,
+    .home .navbar-custom .navbar-nav .active a:hover,
+    .home .navbar-custom .navbar-nav .active a:focus,
+    .home .navbar-custom .navbar-nav .open a {
+      color: gray;
+      background-color: transparent;
+      text-decoration: none; }
+  .home h1 {
+    font-family: "Bowlby One SC", cursive;
+    color: white;
+    font-size: 80px;
+    margin-top: 110px; }
+    @media (max-width: 320px) {
+      .home h1 {
+        font-size: 60px; } }
+  .home #arrow-down {
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    position: relative;
+    top: 180px; }
+
+/* End of Home */
+/* About Us */
+.about {
+  height: auto;
+  padding-bottom: 100px;
+  padding-top: 120px; }
+  .about .about-content {
+    position: relative;
+    top: -60px; }
+    @media (max-width: 1024px) {
+      .about .about-content {
+        position: relative;
+        top: -70px; } }
+  .about #logohat {
+    width: 180px;
+    height: 150px;
+    position: relative;
+    top: 50px;
+    left: 30px; }
+    @media (max-width: 1024px) {
+      .about #logohat {
+        width: 150px;
+        height: 145px;
+        left: 10px; } }
+    @media (max-width: 768px) and (min-width: 480px) {
+      .about #logohat {
+        left: 180px; } }
+    @media (max-width: 320px) {
+      .about #logohat {
+        width: 120px;
+        height: 115px;
+        left: -15px; } }
+  .about h2 {
+    font-family: "Fredericka the Great", cursive; }
+  .about h4 {
+    font-family: "Montserrat", sans-serif;
+    color: #428bca; }
+  .about p {
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-size: 16px; }
+  @media (max-width: 1024px) {
+    .about .about-img {
+      position: relative;
+      top: 40px; } }
+  @media (max-width: 768px) {
+    .about .about-img {
+      top: 0px; } }
+  .about .about-img img {
+    width: 250px;
+    height: 226px; }
+    @media (max-width: 1024px) {
+      .about .about-img img {
+        width: 200px;
+        height: 176px; } }
+    @media (max-width: 768px) {
+      .about .about-img img {
+        margin: 5px;
+        width: 165px;
+        height: 146px; } }
+  .about .img-thumbnail {
+    padding: 15px;
+    margin: 10px; }
+
+/* End of About Us */
+/* Best Seller */
+.best-seller {
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  color: white;
+  font-family: "Fredericka the Great", cursive;
+  background-image: url("../images/menubackground.JPG");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .best-seller h1 {
+    font-size: 50px;
+    position: relative;
+    top: -30px;
+    margin-bottom: 50px; }
+  .best-seller #spoonandfork {
+    width: 40px;
+    height: 41px;
+    position: relative;
+    top: 15px; }
+  .best-seller .row {
+    margin-top: 40px; }
+
+/* End of Best Seller */
+/* Menu */
+.menu {
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .menu .menu-img {
+    position: relative;
+    top: 20px; }
+  .menu .menu-img img {
+    height: 450px;
+    width: 220px; }
+  .menu .img-thumbnail {
+    padding: 15px;
+    margin: 10px; }
+  .menu .menu-content {
+    position: relative;
+    top: -10px; }
+  .menu #chefhat {
+    position: relative;
+    bottom: -20px; }
+  .menu h2 {
+    font-family: "Fredericka the Great", cursive;
+    letter-spacing: 1.75px; }
+  .menu h4 {
+    color: #428bca; }
+  .menu p {
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-size: 16px; }
+
+/* End of Menu */
+/* Delivery */
+.delivery {
+  padding-bottom: 130px;
+  height: auto; }
+  .delivery .delivery-content {
+    position: relative;
+    top: -10px; }
+    .delivery .delivery-content .modal .modal-header {
+      background-color: #121212;
+      color: white; }
+    .delivery .delivery-content .modal .modal-footer {
+      background-color: #121212;
+      color: white; }
+      .delivery .delivery-content .modal .modal-footer button {
+        width: 300px; }
+    .delivery .delivery-content .modal h2 {
+      font-family: "Bowlby One SC", cursive; }
+    .delivery .delivery-content .modal h3 {
+      font-family: "Aclonica", sans-serif; }
+    .delivery .delivery-content .modal .charge {
+      margin-top: 50px; }
+  .delivery #chefhat {
+    position: relative;
+    bottom: -20px; }
+  .delivery h2 {
+    font-family: "Fredericka the Great", cursive;
+    letter-spacing: 1.75px; }
+  .delivery h4 {
+    color: #428bca; }
+  .delivery p {
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-size: 16px; }
+  .delivery .delivery-img {
+    position: relative;
+    top: 20px; }
+  .delivery .delivery-img img {
+    height: 450px;
+    width: 220px; }
+  .delivery .img-thumbnail {
+    padding: 15px;
+    margin: 10px; }
+
+/* End of Delivery */
+/* Testimonials */
+.testimonials {
+  height: auto;
+  padding-bottom: 80px; }
+  .testimonials .top-heading {
+    height: 400px;
+    padding-top: 50px;
+    background-image: url("../images/menubackground.JPG");
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .testimonials .top-heading h1 {
+      font-family: "Fredericka the Great", cursive;
+      color: white;
+      font-size: 50px;
+      position: relative;
+      top: -30px; }
+  .testimonials .img-container {
+    position: relative;
+    top: -70px; }
+    .testimonials .img-container #customer-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 100px; }
+    .testimonials .img-container h5 {
+      margin-top: 30px;
+      width: 300px;
+      font-family: "Montserrat", sans-serif;
+      font-style: italic;
+      line-height: 1.5; }
+    .testimonials .img-container h3 {
+      font-family: "Montserrat", sans-serif; }
+
+/* End of Testimonials */
+/* Announcement */
+.announcement {
+  background-color: #222222;
+  height: auto;
+  padding-top: 70px;
+  padding-bottom: 80px; }
+  .announcement .content {
+    width: 80%; }
+    .announcement .content h1 {
+      font-family: "Fredericka the Great", cursive;
+      color: white;
+      font-size: 50px;
+      letter-spacing: 2px;
+      line-height: 1.25; }
+    .announcement .content a {
+      margin-top: 30px; }
+
+/* End of Announcement */
+/* Location */
+.location .marker {
+  background-image: url("../images/markerbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -400px;
+  border: 8px solid #428bca;
+  color: white;
+  height: auto;
+  padding: 30px 30px 0px 30px; }
+  .location .marker h5 {
+    font-family: "Montserrat", sans-serif;
+    color: gray; }
+  .location .marker h4 {
+    font-family: "Fredericka the Great", cursive;
+    letter-spacing: 1.7px; }
+  .location .marker .inquiries {
+    margin-top: 40px; }
+.location .marker-logo {
+  background-color: #428bca;
+  text-align: center;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 30px; }
+  .location .marker-logo i {
+    font-size: 30px;
+    padding: 10px 2px 0 0; }
+
+/* End of Location */
+/* Contact */
+.contact {
+  height: auto;
+  padding-top: 42px;
+  padding-bottom: 100px;
+  background-color: #222222;
+  color: white; }
+  .contact .container {
+    padding-left: 120px;
+    padding-right: 120px; }
+    @media (max-width: 480px) {
+      .contact .container {
+        padding-left: 20px;
+        padding-right: 20px; } }
+  @media (max-width: 480px) {
+    .contact .heading {
+      text-align: center; } }
+  .contact .heading h1 {
+    font-family: "Fredericka the Great", cursive;
+    letter-spacing: 2px;
+    font-size: 50px; }
+  .contact .heading h3 {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1.5px; }
+  .contact .contact-info {
+    margin-top: 50px; }
+    .contact .contact-info .address h3 {
+      font-size: 50px;
+      font-family: "Fredericka the Great", cursive;
+      letter-spacing: 2px;
+      margin-bottom: 20px; }
+    .contact .contact-info .address p {
+      font-size: 20px;
+      margin-left: 30px;
+      font-family: "Montserrat", sans-serif;
+      letter-spacing: 1.2px; }
+    .contact .contact-info .address .icons a i {
+      font-size: 30px;
+      letter-spacing: 10px;
+      position: relative;
+      left: 28px;
+      color: white; }
+      .contact .contact-info .address .icons a i:hover {
+        color: #428bca; }
+    .contact .contact-info .form {
+      margin-top: 23px; }
+      @media (max-width: 480px) {
+        .contact .contact-info .form .col-md-6 {
+          padding-top: 10px; } }
+      .contact .contact-info .form button {
+        padding-left: 40px;
+        padding-right: 40px;
+        letter-spacing: 1.75px; }
+
+/* End of Contact */
+/* Footer */
+.footer {
+  background-color: #121212;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px; }
+  .footer .content {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1.25px; }
+    .footer .content .text-left {
+      position: relative;
+      top: 5px; }
+  .footer #right {
+    color: white;
+    text-decoration: none; }
+    .footer #right:hover {
+      color: #428bca; }
+  .footer #angle-up {
+    font-size: 25px;
+    position: relative;
+    top: 2px; }
+
+/* End of Footer */
+/* Back to home */
+.backtohome {
+  position: relative;
+  top: 50px; }
+  .backtohome a {
+    color: black;
+    text-decoration: none;
+    font-family: "Fredericka the Great", cursive;
+    font-size: 40px; }
+    .backtohome a:hover {
+      color: #428bca; }
+  .backtohome i {
+    font-size: 50px;
+    position: relative;
+    top: 10px; }
+
+/*# sourceMappingURL=mystyle.css.map */

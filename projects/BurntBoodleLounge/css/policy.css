@@ -1,0 +1,190 @@
+.policy{
+    margin-bottom: 100px;
+}
+.well{
+    margin-top: 50px;
+}
+.policy h1{
+    font-family: 'Tangerine', cursive;
+    font-size:50px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+}
+.policy h3{
+    position: relative;
+    top: -20px;
+    font-family: 'Noto Serif', serif;
+}
+.policy h5{
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    top: -25px;
+}
+.policy h5:before,
+.policy h5:after{
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 9%;
+}
+.policy h5:before{
+    right: 0.5em;
+    margin-left: -50%;
+}
+.policy h5:after{
+    left: 0.5em;
+    margin-right: -50%;
+}
+#burnt{
+    width: 30px;
+    height: 34px;
+}
+.policy h2{
+    font-family: 'Noto Serif', serif;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.policy p{
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+
+
+
+/* Contact */
+.contact{
+    height: auto;
+    background-color: #222222;
+    color: white;
+    padding-bottom: 50px;
+}
+#logo2{
+    width: 150px;
+    height: 50px;
+}
+.contact .col-md-3{
+    margin-top: 50px;
+}
+.contact .first-col p{
+    line-height: 1.8;
+    margin-top: 15px;
+    color: gray;
+}
+.list-inline li a i{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-right: 20px;
+}
+.contact h5{
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 2px;
+}
+.contact .second-col p{
+    font-family: 'Noto Serif', serif;
+}
+.contact .second-col h6{
+    color: gray;
+}
+.contact .third-col h5{
+    margin-bottom: 35px;
+}
+.contact .third-col img{
+    width: 80px;
+    height: 75px;
+    padding: 3px;
+}
+.contact .fourth-col h5{
+    margin-bottom: 30px;
+}
+.contact .fourth-col p{
+    font-size: 15px;
+    color: gray;
+    line-height: 1.7;
+}
+/* End of Contact */
+
+/* Footer */
+.footer{
+    height: auto;
+    background-color:   rgb(18, 18, 18);
+    color: gray;
+}
+.footer .row{
+    margin-top: 15px;
+    padding: 5px;
+}
+.footer a{
+    color: white;
+}
+.footer .list-inline{
+
+}
+/* End of Footer */
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+/* Ipad Pro */ 
+    @media only screen and (max-width : 1024px) and (min-width: 993px) {
+        .contact .third-col img{
+            width: 65px;
+            height: 65px;
+            padding: 3px;
+        }
+    }
+
+/* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+/* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    }
+
+/* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+    }
+
+/* Iphone 6 plus */
+    @media only screen and (max-width : 414px) {
+
+    }
+
+/* Nexus 5 and other phone */
+    @media only screen and (max-width : 412px) {
+        }
+
+/* Iphone 6 */
+    @media only screen and (max-width : 375px) {
+    
+    }
+
+/* Galaxy 5 */
+    @media only screen and (max-width : 360px) {
+    
+    }
+
+/* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+    
+    }

@@ -1,0 +1,87 @@
+/* Variable */
+/* End of Variables */
+#chefhat {
+  width: 110px;
+  height: 115px; }
+
+p {
+  font-family: "Montserrat", sans-serif; }
+
+.btn {
+  font-family: "Montserrat", sans-serif; }
+
+.custom-btn {
+  width: 150px;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid #428bca;
+  color: #428bca;
+  font-weight: bold;
+  font-size: 16px; }
+  .custom-btn:hover, .custom-btn:focus {
+    background-color: #428bca;
+    color: white;
+    transition: 1s; }
+
+/* Burger Menu */
+.burgermenu {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  background-image: url("../images/menubackground.JPG");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .burgermenu .title h1 {
+    font-family: "Fredericka the Great", cursive;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    top: -20px; }
+  .burgermenu .title .dotted {
+    font-size: 15px;
+    color: white;
+    letter-spacing: 5px; }
+  .burgermenu .content .col-md-4 {
+    margin-top: 50px; }
+  .burgermenu .content img {
+    height: 253px;
+    width: 300px; }
+  .burgermenu .content h2 {
+    font-family: "Fredericka the Great", cursive;
+    color: white; }
+  .burgermenu .content p {
+    font-size: 18px;
+    color: #428bca;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.83);
+    padding-bottom: 15px;
+    width: 80%;
+    margin: auto; }
+  .burgermenu .content .icons {
+    margin-top: 15px;
+    color: white;
+    font-family: "Montserrat", sans-serif; }
+    .burgermenu .content .icons i {
+      font-size: 22px;
+      color: gray; }
+    .burgermenu .content .icons span {
+      font-size: 12px;
+      position: relative;
+      top: -3px; }
+  .burgermenu .footer {
+    font-family: "Fredericka the Great", cursive;
+    font-size: 40px;
+    margin-top: 80px; }
+    .burgermenu .footer a {
+      color: white;
+      text-decoration: none; }
+      .burgermenu .footer a:hover {
+        color: #428bca; }
+    .burgermenu .footer i {
+      font-size: 50px;
+      position: relative;
+      top: 10px; }
+
+/* End of Burger Menu */
+
+/*# sourceMappingURL=burger.css.map */

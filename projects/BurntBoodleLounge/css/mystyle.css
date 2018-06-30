@@ -1,0 +1,724 @@
+/* Home */
+.home{
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.navbar-custom {
+    background-color:transparent;
+    color:white;
+    border-radius:0;
+}
+.navbar-custom .navbar-nav > li > a {
+    color:white;
+    font-size: 19px;
+}
+.navbar-custom .navbar-brand{
+    margin-top: 10px;
+}
+#logo{
+    width: 150px;
+    height: 50px;
+}
+.navbar-custom .navbar-nav{
+    margin-top: 30px;
+    /*font-family: 'Freckle Face', cursive;*/
+    font-family: 'Noto Serif', serif;
+}
+.navbar-custom .navbar-nav > .active > a {
+    color: white;
+    background-color:transparent;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: transparent;
+    color: gray;
+}
+.navbar-custom .navbar-toggle {
+    background-color:white;
+    margin-top: 37px;   
+}
+.navbar-custom .icon-bar {
+    background-color: black;
+    padding: 0px;
+}
+.navbar-custom .navbar-nav .dropdown-menu  { 
+    background-color: transparent;
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a  { 
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a:hover,
+.navbar-custom .navbar-nav .dropdown-menu>li>a:focus  { 
+    color: black;
+}
+.heading{
+    margin-top: 100px;
+}
+.heading h1{
+    font-size: 85px;
+    color: white;
+    text-align: center;
+    /*font-family: 'Freckle Face', cursive;*/
+    font-family: 'Noto Serif', serif;
+    line-height: 1.5;
+}
+.heading button{
+    margin-top:30px;
+    background-color: #222222;
+    color: white;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.heading button:hover,
+.heading button:focus{
+    background-color: white;
+    transition:1s;
+    color: black;
+}
+/* End of Home */
+
+/* About Us */
+.about{
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.about h1{
+    font-family: 'Tangerine', cursive;
+    font-size:50px;
+    letter-spacing: 3px;
+}
+.about h3{
+    position: relative;
+    top: -20px;
+    font-family: 'Noto Serif', serif;
+}
+button {
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 1.3px;
+}
+.about h5{
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    top: -25px;
+}
+.about h5:before,
+.about h5:after{
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 9%;
+}
+.about h5:before{
+    right: 0.5em;
+    margin-left: -50%;
+}
+.about h5:after{
+    left: 0.5em;
+    margin-right: -50%;
+}
+#burnt{
+    width: 30px;
+    height: 34px;
+}
+.about h4{
+    font-family: 'Noto Serif', serif;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height:1.7;
+    width: 80%;
+    font-style: italic;
+}
+#banner{
+    height: 400px;
+}
+.about p{
+    margin-top: 25px;
+}
+#readmore{
+    background-color: #222222;
+    color:white;
+    padding: 5px 35.5px;
+    margin-top: 20px;
+    border:1px solid black;
+    margin-right: 10px;
+}
+#visitusnow{
+    background-color: transparent;
+    color:black;
+    padding: 5px 40px;
+    margin-top: 20px;
+    border:1px solid black;
+}
+#readmore:hover{
+    text-decoration: underline;
+}
+#visitusnow:hover{
+    text-decoration: underline;
+}
+/* End of About Us */
+
+/* Active Hours */
+.activehours{
+    background-image: url("../images/activehours.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.activehours-box{
+    border:7px solid white;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top: 10%;
+}
+.activehours-box h1{
+    /*font-family: 'Tangerine', cursive;*/
+    font-family: 'Noto Serif', serif;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    word-spacing: 20px;
+}
+.activehours-box h3{
+    font-family: 'Tangerine', cursive;
+    color: white;
+    position: relative;
+    top: -35px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    left: -18px;
+}
+.activehours-box h4{
+    font-family: 'Tangerine', cursive;
+    color: white;
+    position: relative;
+    top: -75px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    left: -10px;
+}
+/* End o Active Hours */
+
+/* Latest Update */
+.latestupdate{
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.latestupdate h1{
+    font-family: 'Tangerine', cursive;
+    font-size:50px;
+    letter-spacing: 3px;
+}
+.latestupdate h3{
+    position: relative;
+    top: -20px;
+    font-family: 'Noto Serif', serif;
+}
+.latestupdate h5{
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    top: -25px;
+}
+.latestupdate h5:before,
+.latestupdate h5:after{
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 9%;
+}
+.latestupdate h5:before{
+    right: 0.5em;
+    margin-left: -50%;
+}
+.latestupdate h5:after{
+    left: 0.5em;
+    margin-right: -50%;
+}
+.latestupdate .row{
+    margin-top: 40px;
+}
+.latestupdate .date-circle{
+    width: 16%;
+    height: 80px;
+    position: absolute;
+    background-color: #222222;
+    color: white;
+    font-family: 'Noto Serif', serif;
+    border-radius: 50px;
+    left: 42%;
+    right: 42%;
+    top: -8%;
+}
+.latestupdate .date-digit{
+    font-size: 30px;
+    position: relative;
+    top: 6px;
+}
+.latestupdate .date-month{
+    font-size: 14px;
+}
+.latestupdate h4{
+    font-family: 'Noto Serif', serif;
+    position: relative;
+    top: 5px;
+}
+.latestupdate h6{
+    font-family: 'Noto Serif', serif;
+    word-spacing: 4px;
+    margin-top: 15px;
+}
+.latestupdate p{
+    text-align: center;
+    margin-top: 20px;
+}
+.readmore{
+    background-color: #222222;
+    color:white;
+    padding: 5px 35.5px;
+    margin-top: 10px;
+    border:1px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.readmore:hover{
+    text-decoration: underline;
+}
+/* End of Latest Update */
+
+/* Rate us */
+.rate-us{
+    background-color:#222222; 
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.rate-us h2{
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: white;
+}
+.rate-us h1{
+    font-family: 'Noto Serif', serif;
+    color: white;
+    font-size: 55px;
+    font-style: italic;
+    margin-top: 50px;
+}
+.rating-icons{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.rating-icons i{
+    color: #f2b01e;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+.rate-us a{
+    color: white;
+    font-size: 20px;
+}
+/* End of Rate us */
+
+/* Location */
+.location{
+    height: auto;
+    padding-bottom: 100px;
+    background-color: #FAF9F9;
+}
+.location-details{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background-color: #222222;
+    position: absolute;
+    margin-top: 185px;
+    z-index: 1;
+    left: 100px;
+    color: white;
+}
+.location-content{
+    color: white;
+    position: relative;
+    left: 30px;
+}
+.location-content h2{
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.location-content h1{
+    font-family: 'Noto Serif', serif;
+    position: relative;
+    top: -30px;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.location-content h4{
+    font-family: 'Noto Serif', serif;
+    position: relative;
+    top: -10px;
+}
+.location-content p{
+    position: relative;
+    top: -15px;
+}
+iframe{
+    width: 100%;
+    height: 460px;
+    margin-top: 100px;
+    position: relative;
+    right: 70px;
+}
+/* End of Location */
+
+/* Contact */
+.contact{
+    height: auto;
+    background-color: #222222;
+    color: white;
+    padding-bottom: 50px;
+}
+#logo2{
+    width: 150px;
+    height: 50px;
+}
+.contact .col-md-3{
+    margin-top: 50px;
+}
+.contact .first-col p{
+    line-height: 1.8;
+    margin-top: 15px;
+    color: gray;
+}
+.list-inline li a i{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-right: 20px;
+}
+.contact h5{
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 2px;
+}
+.contact .second-col p{
+    font-family: 'Noto Serif', serif;
+}
+.contact .second-col h6{
+    color: gray;
+}
+.contact .third-col h5{
+    margin-bottom: 35px;
+}
+.contact .third-col img{
+    width: 80px;
+    height: 75px;
+    padding: 3px;
+}
+.contact .fourth-col h5{
+    margin-bottom: 30px;
+}
+.contact .fourth-col p{
+    font-size: 15px;
+    color: gray;
+    line-height: 1.7;
+}
+/* End of Contact */
+
+/* Footer */
+.footer{
+    height: auto;
+    background-color:   rgb(18, 18, 18);
+    color: gray;
+}
+.footer .row{
+    margin-top: 15px;
+    padding: 5px;
+}
+.footer a{
+    color: white;
+}
+.footer .list-inline{
+
+}
+/* End of Footer */
+
+
+
+
+
+
+
+
+/* Media Queries */
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+/* Ipad Pro */ 
+    @media only screen and (max-width : 1024px) and (min-width: 993px) {
+        #banner{
+            height:343px; 
+            width:400px;
+        }
+        .heading h1{
+            font-size: 75px;
+        }
+        .activehours-box h3{
+            left:-14px;
+        }
+        .activehours-box h4{
+            left:-8px;
+        }
+        .latestupdate .date-circle{
+            width: 20%;
+        }
+        .location-details{
+            left: 75px;
+        }
+        .location-content{
+            width: 90%;
+            margin: auto;
+            left: 7px;
+        }
+    }
+
+/* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+/* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        .navbar-custom .navbar-nav > li > a{
+            font-size: 16px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .heading h1{
+            font-size: 70px;
+        }
+        .about h5{
+            margin-bottom: 50px;
+        }
+        .about h5:before,
+        .about h5:after{
+            width: 15%;
+        }
+        #banner{
+            margin-bottom: 20px;
+            margin-left: 30px; 
+            height:343px; 
+            width:400px;
+        }
+        .activehours-box h1{
+            font-size: 60px;
+        }
+        .activehours-box h3{
+            font-size: 35px;
+            left:-15px;
+        }
+        .activehours-box h4{
+            font-size: 30px;
+            left: -8px;
+        }
+        .latestupdate h5:before,
+        .latestupdate h5:after{
+            width: 11%;
+        }
+        #branch{
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            text-align: center;
+            width: 65%;
+        }
+        #flavor{
+            margin-top: 90px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            text-align: center;
+            width: 65%;
+        }
+        .location-details{
+            left: 0;
+            position: relative;
+            margin-top: 100px;
+        }
+        .location-content{
+            top:20px;
+        }
+        iframe{
+            right: 0;
+            margin-top: 0px;
+        }
+    }
+
+/* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+        .navbar-custom .navbar-nav{
+            margin-bottom: 30px;
+        }
+        .navbar-custom .navbar-nav > li > a:hover,
+        .navbar-custom .navbar-nav > li > a:focus,
+        .navbar-custom .navbar-nav > .active > a:hover,
+        .navbar-custom .navbar-nav > .active > a:focus,
+        .navbar-custom .navbar-nav > .open >a {
+            color: gray;
+        }
+        .heading h1{
+            font-size: 55px;
+            line-height: 1.3;
+        }
+        #myNavbar{
+            position: absolute;
+            /*background-color:rgba(34, 34, 34, 0.7);*/
+            background-image: url("../images/fortheloveofwings2.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            z-index: 1;
+            width: 100%;
+        }
+        .about h5:before,
+        .about h5:after{
+            width: 27%;
+        }
+        #banner{
+            height: 300px;
+            width: 300px;
+            margin-left: 20px;
+        }
+        .activehours-box h1{
+            font-size: 40px;
+        }
+        .activehours-box h3{
+            font-size: 30px;
+            left: -10px;
+        }
+        .activehours-box h4{
+            font-size: 25px;
+            left: -4px;
+        }
+        .latestupdate .date-circle{
+            width: 20%;
+            height: 80px;
+            left: 40%;
+            right: 40%;
+        }
+        .latestupdate h5:before,
+        .latestupdate h5:after{
+            width: 20%;
+        }
+        #branch{
+            width: 100%;
+        }
+        #flavor{
+            width: 100%;
+        }
+        .location-details{
+            margin-top: 70px;
+            width: 100%;
+            height: 310px;
+        }
+        .location-content{
+            width: 90%;
+            margin: auto;
+            left: 5px;
+        }
+    }
+
+/* Iphone 6 plus */
+    @media only screen and (max-width : 414px) {
+        #banner{
+            margin-left: 37px;
+        }
+
+    }
+
+/* Nexus 5 and other phone */
+    @media only screen and (max-width : 412px) {
+        #banner{
+            margin-left: 36px;
+        }
+    }
+
+/* Iphone 6 */
+    @media only screen and (max-width : 375px) {
+        #banner{
+            margin-left: 25px;
+        }
+        .latestupdate .date-circle{
+            width: 22%;
+            height: 80px;
+            left: 39%;
+            right: 39%;
+        }
+        .location h1{
+            font-size: 45px;
+        }
+    }
+
+/* Galaxy 5 */
+    @media only screen and (max-width : 360px) {
+        #banner{
+            margin-left: 15px;
+        }
+    }
+
+/* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        #banner{
+            margin-left: 0;
+        }
+        .activehours-box h1{
+            font-size: 40px;
+        }
+        .activehours-box h3{
+            font-size: 25px;
+            left: -10px;
+        }
+        .activehours-box h4{
+            font-size: 20px;
+        }
+        .latestupdate .date-circle{
+            width: 26%;
+            height: 80px;
+            left: 37%;
+            right: 37%;
+        }
+        .latestupdate h6{
+            line-height: 2;
+        }
+        .location-details{
+            margin-top: 50px;
+        }
+        .location-content h1{
+            font-size: 40px;
+        }
+    }

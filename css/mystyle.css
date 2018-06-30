@@ -1,0 +1,693 @@
+  	#myNavbar,p{
+  		font-family: 'Raleway', sans-serif;
+  	}
+  	h1,h3,.contact h4{
+  		font-family: 'Aclonica', sans-serif;
+  	}
+  	*{
+    	box-sizing: border-box;
+    	margin: 0;
+    	padding: 0;
+    }
+
+/* Home */
+  	.main{
+  		background-image: url("../images/background.jpg");
+  		background-size: cover;
+  		background-repeat: no-repeat;
+  		height: 800px;	
+  	}
+    .navbar-custom {
+  	  background-color:transparent;
+  	  color:white;
+  	  border-radius:0;
+    }
+    .navbar-custom .navbar-nav > li > a {
+	    color:white;
+	    font-size: 18px;
+	  }
+    .navbar-custom .navbar-brand{
+      margin-top: 50px;
+      font-family: 'Norican', cursive;
+      font-size: 55px;
+      color: white;
+      font-style: italic;
+      letter-spacing: 3px;
+    }
+    .navbar-custom .navbar-nav{
+      margin-top: 50px;
+    }
+    .navbar-custom .navbar-nav > .active > a {
+	    color: white;
+	    background-color:transparent;
+    }
+    .navbar-custom .navbar-nav > li > a:hover,
+    .navbar-custom .navbar-nav > li > a:focus,
+    .navbar-custom .navbar-nav > .active > a:hover,
+    .navbar-custom .navbar-nav > .active > a:focus,
+    .navbar-custom .navbar-nav > .open >a {
+	    text-decoration: none;
+	    background-color: transparent;
+	    color: gray;
+    }
+    .navbar-custom .navbar-toggle {
+	    background-color:gray;
+	    margin-top: 50px;	
+    }
+    .navbar-custom .icon-bar {
+      background-color: black;
+      padding: 0px;
+    }
+    .well{
+      margin-top: 150px;
+      width: 50%;
+    }
+    .well h1{
+      font-size: 45px;
+    }
+    .well h4{
+      font-family: 'Raleway', sans-serif;
+    }
+    .contact-icons{
+      font-size: 15px;
+      padding: 12px;
+      margin:5px;
+      background-color: black;
+      display: inline-block;
+      transform: skewY(-10deg);
+      color: white;
+    }
+    .contact-icons:hover{
+      color: gray;
+    }
+    .fa-chevron-down{
+      font-size: 30px;
+      margin-top: 200px;
+      color: white;
+      position: relative;
+      transition: 0.5s;
+      top: 0px;
+    }
+    .fa-chevron-down:hover{
+      color: gray;
+      top: 15px;
+    }
+/* End of Home */
+
+/* About Me */
+		.aboutme{
+			height: auto;
+      padding-top: 70px;
+      padding-bottom: 200px;
+			position: relative;
+			z-index: 1;
+		}
+		.aboutme:before{
+			transform: skewY(8deg);
+			width: 50%;
+			height: 100px;
+			position: absolute;
+			left: 0;
+			content: '';
+			top: -48px;
+			background-color: white;
+			z-index: -1;
+		}
+		.aboutme:after{
+			transform: skewY(-8deg);
+			width: 50%;
+			height: 100px;
+			position: absolute;
+			right: 0px;
+			content: '';
+			top: -48px;
+			background-color: white;
+			z-index: -1;
+		}
+		.myImage{
+			width: 400px;
+			height: 400px;
+			clip-path: polygon(49% 2%, 100% 25%, 100% 75%, 50% 98%, 0% 75%, 0% 25%);
+		}
+		h1.text-center{
+		}
+		.ME{
+			background-color: black;
+			color: white;
+			padding: 6px;
+      transform: skewY(-5deg);
+      display: inline-block;
+		}
+    .ME-content{
+      transform: skewY(5deg);
+      display: inline-block;
+    }
+		p.aboutme-content{
+			font-size: 16px;
+			line-height: 2;
+			margin-top: 80px;
+		}
+    .custom-btn{
+      background-color: black;
+      color: white;
+      padding: 15px 28px; 
+      border:none;
+      display: inline-block;
+      transform: skewY(-5deg);
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    .custom-btn:hover,
+    .custom-btn:focus{
+      color: gray;
+    }
+    .custom-btn-link{
+      display: inline-block;
+      transform: skewY(5deg);
+    }
+/* End of About Me */
+
+/* What I do */
+		.whatido{
+			height: auto;
+      padding-top: 70px;
+      padding-bottom: 100px;
+			background-image: url("../images/whatido.jpg");
+			background-size: cover;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			transform: skewY( 10deg);
+		}
+    .whatido-hr{
+      width: 10%;
+      border-bottom: 2px solid white;
+      margin-top: 1px;
+      margin-bottom: 20px;
+    }  
+		.whatido-container{
+			transform: skewY( -10deg);
+			color: white;
+		}
+		.whatido .col-md-4{
+			padding:30px;
+		}
+    .whatido i{
+      font-size: 80px;
+    }
+    .whatido h3{
+      margin-bottom: 20px;
+      margin-top: 8px;
+    }
+    .whatido p{
+      font-size: 16px;
+      line-height: 1.75;
+      text-align: center;
+    }
+/* End of What I do */
+
+/* Some of my Works */
+    .works{
+      height: auto;
+      padding-top: 120px;
+      padding-bottom: 200px;
+    }
+    .works h1{
+      margin-bottom: 50px;
+    }
+    .works .thumbnail img{
+      height: 230px;
+    }
+/* End of Some of my Works */
+
+/* Qualities */
+    .qualities{
+      height: 400px;
+      width: 100%;
+      margin-bottom: 280px;
+      background: linear-gradient(to right,#000000,#434343);
+      position: relative;
+      color: white;
+    }
+    .qualities::before{
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: inherit;
+      z-index: -1;
+      right:0;
+      transform-origin: left bottom;
+      transform: skewY(-5deg);
+    }
+    .qualities::after{
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: inherit;
+      z-index: -1;
+      left: 0;
+      transform-origin: left bottom;
+      transform: skewY(5deg);
+    }
+    .qualities .heading{
+      position: relative;
+      top: 180px;
+    }
+    .qualities h1{
+      font-size: 50px;
+    }
+    .qualities h5{
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+    }
+    .qualities .list{
+      position: absolute;
+      top: -30px;
+    }
+    .qualities .list i{
+      font-size: 50px;
+    }
+    .qualities .list .list1-heading{
+      position: relative;
+      top: -10px;
+      left: 20px;
+    }
+    .qualities .list .list2-heading{
+      position: relative;
+      top: -10px;
+      left: 48px;
+    }
+    .qualities .list .list3-heading{
+      position: relative;
+      top: -10px;
+      left: 40px;
+    }
+    .qualities p{
+      position: relative;
+      left: 80px;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+/* End of Qualities */
+
+/* Skills */
+    .skills{
+      height: auto;
+      padding-bottom: 170px;
+    }
+    .skills-hr{
+      width: 10%;
+      border-bottom: 2px solid #454545;
+      margin-top: 1px;
+    }
+    .bar-list{
+      margin-top: 100px;
+    }
+  /* Skill Bar */
+    .skillbar {
+      position:relative;
+      display:block;
+      margin-bottom:25px;
+      width:100%;
+      background:#eee;
+      height:35px;
+      border-radius:3px;
+      -moz-border-radius:3px;
+      -webkit-border-radius:3px;
+      -webkit-transition:0.4s linear;
+      -moz-transition:0.4s linear;
+      -ms-transition:0.4s linear;
+      -o-transition:0.4s linear;
+      transition:0.4s linear;
+      -webkit-transition-property:width, background-color;
+      -moz-transition-property:width, background-color;
+      -ms-transition-property:width, background-color;
+      -o-transition-property:width, background-color;
+      transition-property:width, background-color;
+    }
+
+    .skillbar-title {
+      position:absolute;
+      top:0;
+      left:0;
+      width:130px;
+      font-family: 'Raleway', sans-serif;
+      font-size:16px;
+      color:#ffffff;
+      background:#6adcfa;
+      -webkit-border-top-left-radius:3px;
+      -webkit-border-bottom-left-radius:4px;
+      -moz-border-radius-topleft:3px;
+      -moz-border-radius-bottomleft:3px;
+      border-top-left-radius:3px;
+      border-bottom-left-radius:3px;
+    }
+
+    .skillbar-title span {
+      display:block;
+      background:rgba(0, 0, 0, 0.1);
+      padding:0 20px;
+      height:35px;
+      line-height:35px;
+      -webkit-border-top-left-radius:3px;
+      -webkit-border-bottom-left-radius:3px;
+      -moz-border-radius-topleft:3px;
+      -moz-border-radius-bottomleft:3px;
+      border-top-left-radius:3px;
+      border-bottom-left-radius:3px;
+    }
+
+    .skillbar-bar {
+      height:35px;
+      width:0px;
+      background:#6adcfa;
+      border-radius:3px;
+      -moz-border-radius:3px;
+      -webkit-border-radius:3px;
+    }
+
+    .skill-bar-percent {
+      position:absolute;
+      right:10px;
+      top:0;
+      font-family: 'Raleway', sans-serif;
+      font-size:16px;
+      height:35px;
+      line-height:35px;
+      color:#ffffff;
+      color:rgba(0, 0, 0, 0.4);
+    }
+  /*End of Skill Bar */
+/* End of Skills */
+
+/* Resume */
+    .resume{
+      height: auto;
+      padding-top: 250px;
+      padding-bottom: 250px;
+      background-image: url(../images/resume.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      transform: skewY( -10deg);
+    }
+    #resume{
+      color: transparent;
+      position: relative;
+      top: -350px;
+    }
+    .resume-container{
+      transform: skewY(10deg);
+    }
+    .resume h1{
+      color: white; 
+      font-size: 50px;
+      letter-spacing: 1.7px;
+      line-height: 1.5;
+    }
+    .custom-btn2{
+      width: 200px;
+      background-color: black;
+      color: white;
+      padding: 12px; 
+      border:none;
+      display: inline-block;
+      transform: skewY(-5deg);
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px;
+      margin-top: 10px;
+      letter-spacing: 1.5px;
+    }
+    .custom-btn2:hover,
+    .custom-btn2:focus{
+      color: gray;
+    }
+    .custom-btn-link2{
+      display: inline-block;
+      transform: skewY(5deg);
+    }
+/* End of Resume */
+
+/* Contact */
+    .contact{
+      width: 100%;
+      height: auto;
+      padding-top: 150px;
+      padding-bottom: 140px;
+    }
+    .contact h1{
+      letter-spacing: 2px;
+    }
+    .contact-hr{
+      width: 10%;
+      border-bottom: 2px solid #454545;
+      margin-top: 1px;
+    }
+    .contact p{
+      font-size: 20px;
+      margin-top: 50px;
+      letter-spacing: 1.5px;
+      line-height: 2;
+      width: 70%;
+    }
+    .contact-icon{
+      width:75%;
+      margin-top: 50px;
+      font-size: 40px;
+      text-decoration: none;
+    }
+    .contact-icon i{
+      border:2px solid black;
+      border-radius: 50px;
+      padding: 25px;
+      color: black;
+    }
+    .contact h4{
+      margin-top: 30px;
+    }
+    .contact h5{
+      font-size: 16px;
+      font-family: 'Raleway', sans-serif;
+      color: black;
+    }
+/* End of Contact */
+
+/* Footer */
+    .footer{
+      width: 100%;
+      height: auto;
+      padding-right: 20px;
+      padding-top: 35px;
+      padding-bottom: 5px;
+      background-color: black;
+      position: relative;
+    }
+    .footer p a{
+      color: gray;
+    }
+    .footer p a:hover{
+      color: white;
+      text-decoration: none;
+    }
+    .footer-content{
+      color: gray;
+      font-size: 15px;
+    }
+    .footer:before{
+      position: absolute;
+      transform: skewY(-2.5deg);
+      background-color: white;
+      width: 100%;
+      height: 66px;
+      content: ' ';
+      top: -35px;
+    }
+/* End of Footer */
+
+
+
+
+
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1800px) {
+      .aboutme:before{
+        width: 60%;
+        height: 150px;
+      }
+      .aboutme:after{
+        width: 60%;
+        height: 150px;
+      }
+      .footer:before{
+        transform: skewY(-2deg);
+      }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+    	.myImage{
+    		float: none;
+    		margin: 0 auto;
+    		width: 350px;
+    		height: 350px;
+    	}
+    	h1.text-center{
+    		margin-bottom: 20px;
+    	}
+    	p.aboutme-content{
+		    margin-top: 30px;
+		  }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      .navbar-custom .navbar-brand{
+        font-size: 40px;
+      }
+      .navbar-custom .navbar-nav > li > a{
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+	    .well{
+        margin-top: 150px;
+        width: 60%;
+      }
+    	.myImage{
+    		width: 330px;
+    		height: 330px;
+    	}
+		  .fa-chevron-down{
+        font-size: 25px;
+        margin-top: 130px;
+        color: white;
+      }
+      .whatido .col-md-4{
+        padding:15px;
+      }
+      .qualities{
+        height: 600px;
+      }
+      .qualities .heading{
+        top: 30px;
+      }
+      .qualities .list{
+        top: 50px;
+        width: 70%;
+        left: 60px;
+      }
+      .footer{
+        padding-top: 38px;
+        padding-bottom: 2px;
+      }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+      .navbar-custom .navbar-brand{
+        margin-top: 45px;
+      }
+      .navbar-custom .navbar-nav > li > a:hover,
+      .navbar-custom .navbar-nav > li > a:focus,
+      .navbar-custom .navbar-nav > .active > a:hover,
+      .navbar-custom .navbar-nav > .active > a:focus,
+      .navbar-custom .navbar-nav > .open >a {
+        text-decoration: none;
+        background-color: gray;
+        color: black;
+      }
+      .navbar-custom .navbar-nav{
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      #myNavbar{
+        position: absolute;
+        background-color:#222222;
+        background-size: 100% 100%;
+        z-index: 1;
+        width: 100%;
+      }
+    	.well{
+        margin-top: 150px;
+        width: 70%;
+      }
+    	.myImage{
+    		width: 300px;
+    		height: 300px;
+    	}
+      .whatido .col-md-4{
+        padding:10px;
+      }
+      .qualities{
+        height: 890px;
+      }
+      .qualities .heading{
+        top: 80px;
+      }
+      .qualities h1{
+        font-size: 45px;
+      }
+      .qualities .list{
+        top: 130px;
+        width: 70%;
+        left: 30px;
+      }
+      #resume{
+        top: -200px;
+      }
+      .resume h1{
+        font-size: 45px;
+      }
+      .footer{
+        padding-top: 39px;
+        padding-bottom: 1px;
+      }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+    	.well{
+        margin-top: 150px;
+        width: 70%;
+      }
+      .whatido .col-md-4{
+        padding: 5px;
+      }
+      .qualities{
+        height: 970px;
+      }
+      .qualities .heading{
+        top: 80px;
+      }
+      .qualities h1{
+        font-size: 40px;
+      }
+      .qualities .list{
+        top: 100px;
+        width: 70%;
+        left: 10px;
+      }
+      .qualities .list .list1-heading{
+        font-size: 20px;
+      }
+      .qualities .list .list2-heading{
+        font-size: 20px;
+      }
+      .qualities .list .list3-heading{
+        font-size: 20px;
+      }
+      .resume h1{
+        font-size: 40px;
+      }
+      .footer p{
+        font-size: 12px;
+      }
+      .footer-content{
+        position: relative;
+        left: -10px;
+        top: 3px;
+      }
+    }

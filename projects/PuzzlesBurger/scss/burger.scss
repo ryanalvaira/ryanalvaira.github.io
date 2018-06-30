@@ -1,0 +1,121 @@
+/* Variable */
+$body-font:'Montserrat', sans-serif;
+$heading-font:'Bowlby One SC', cursive;
+$navbar-font:'Aclonica', sans-serif;
+$title-font:'Fredericka the Great', cursive;
+
+$primary-color:#428bca;
+
+$large-screen: 1200px;
+$ipad-pro: 1024px;
+$desktop: 992px;
+$tablet: 768px;
+$phone: 480px;
+$iphone-retina: 320px;
+/* End of Variables */
+
+#chefhat{
+	width: 110px;
+	height: 115px;
+}
+p{
+	font-family: $body-font;
+}
+.btn{
+	font-family: $body-font;
+}
+.custom-btn{
+    width: 150px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid $primary-color;
+    color: $primary-color;
+    font-weight: bold;
+    font-size: 16px;
+    &:hover,
+    &:focus{
+    	background-color: $primary-color;
+    	color:white;
+    	transition:1s;
+    }
+}
+
+/* Burger Menu */
+.burgermenu{
+	padding-top: 30px;
+	padding-bottom: 70px;
+	background: {
+		image:url("../images/menubackground.JPG");
+		size:cover;
+		repeat:no-repeat;
+	}
+	.title{
+		h1{
+			font-family: $title-font;
+			font-size: 50px;
+			color: white;
+			position: relative;
+			top: -20px;
+		}
+		.dotted{
+			font-size: 15px;
+			color: white;
+			letter-spacing: 5px;
+		}
+	}
+	.content{
+		.col-md-4{
+			margin-top: 50px;
+		}
+		img{
+			height: 253px;
+			width: 300px;
+		}
+		h2{
+			font-family: $title-font;
+			color: white;
+		}
+		p{
+			font-size: 18px;
+			color: $primary-color;
+			border-bottom: 1px solid rgba(68, 68, 68, 0.83);
+			padding-bottom: 15px;
+			width: 80%;
+			margin: auto;
+		}
+		.icons{
+			margin-top: 15px;
+			color: white;
+			font-family: $body-font;
+			i{
+				font-size: 22px;
+				color: gray;
+			}
+			span{
+				font-size: 12px;
+				position: relative;
+				top: -3px;
+			}
+		}
+	}
+	.footer{
+		font-family: $title-font;
+		font-size: 40px;
+		margin-top: 80px;
+		a{
+			color: white;
+			text-decoration: none;
+			&:hover{
+				color: $primary-color;
+			}
+		}
+		i{
+			font-size: 50px;
+			position: relative;
+			top: 10px;
+		}
+	}
+}
+/* End of Burger Menu */

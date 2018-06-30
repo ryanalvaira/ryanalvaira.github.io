@@ -1,0 +1,183 @@
+    p{
+  		font-family: 'Raleway', sans-serif;
+  	}
+  	h1,h3,.contact h4{
+  		font-family: 'Aclonica', sans-serif;
+  	}
+  	*{
+    	box-sizing: border-box;
+    	margin: 0;
+    	padding: 0;
+    }
+
+/* About Me */
+    .aboutme{
+      height: auto;
+      padding-top: 70px;
+      padding-bottom: 150px;
+      position: relative;
+      z-index: 1;
+    }
+    .myImage{
+      width: 400px;
+      height: 400px;
+      clip-path: polygon(49% 2%, 100% 25%, 100% 75%, 50% 98%, 0% 75%, 0% 25%);
+    }
+    h1.text-center{
+    }
+    .ME{
+      background-color: black;
+      color: white;
+      padding: 6px;
+      transform: skewY(-5deg);
+      display: inline-block;
+    }
+    .ME-content{
+      transform: skewY(5deg);
+      display: inline-block;
+    }
+    p.aboutme-content{
+      font-size: 16px;
+      line-height: 2;
+      margin-top: 80px;
+    }
+    .custom-btn{
+      background-color: black;
+      color: white;
+      padding: 15px 28px; 
+      border:none;
+      display: inline-block;
+      transform: skewY(-5deg);
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    .custom-btn:hover,
+    .custom-btn:focus{
+      color: gray;
+    }
+    .custom-btn-link{
+      display: inline-block;
+      transform: skewY(5deg);
+    }
+    ul{
+      margin-left: 70px;
+      text-indent: 10px;
+      margin-top: 20px;
+    }
+    ul li{
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px;
+      line-height: 2;
+    }
+    .second-paragraph{
+      margin-top: 20px;
+    }
+    p.aboutme-content2{
+      font-size: 16px;
+      line-height: 2;
+      text-indent: 50px;
+    }
+    .paragraph-heading{
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+    p.aboutme-content3{
+      font-size: 30px;
+      line-height: 2;
+      text-indent: 50px;
+      margin-top: 50px;
+    }
+/* End of About Me */
+
+/* Footer */
+    .footer{
+      width: 100%;
+      height: auto;
+      padding-right: 20px;
+      padding-top: 35px;
+      padding-bottom: 5px;
+      background-color: black;
+      position: relative;
+    }
+    .footer p a{
+      color: gray;
+    }
+    .footer p a:hover{
+      color: white;
+      text-decoration: none;
+    }
+    .footer-content{
+      color: gray;
+      font-size: 15px;
+    }
+    .footer:before{
+      position: absolute;
+      transform: skewY(-2.5deg);
+      background-color: white;
+      width: 100%;
+      height: 66px;
+      content: ' ';
+      top: -35px;
+    }
+/* End of Footer */
+
+
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1800px) {
+      .footer:before{
+        transform: skewY(-2deg);
+      }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+      .myImage{
+        float: none;
+        margin: 0 auto;
+        width: 350px;
+        height: 350px;
+      }
+      h1.text-center{
+        margin-bottom: 20px;
+      }
+      p.aboutme-content{
+        margin-top: 30px;
+      }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      .myImage{
+        width: 330px;
+        height: 330px;
+      }
+      .footer{
+        padding-top: 38px;
+        padding-bottom: 2px;
+      }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+      .myImage{
+        width: 300px;
+        height: 300px;
+      }
+      .footer{
+        padding-top: 39px;
+        padding-bottom: 1px;
+      }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+      .footer p{
+        font-size: 12px;
+      }
+      .footer-content{
+        position: relative;
+        left: -10px;
+        top: 3px;
+      }
+    }
